@@ -1,7 +1,7 @@
 // TODO: load the dataset 
 
 let attractions;
-fetch('/attractions.json')
+fetch('attractions.json')
   .then(response => response.json())
   .then(data => {
 		attractions = data;
